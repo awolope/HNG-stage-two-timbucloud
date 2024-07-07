@@ -1,0 +1,40 @@
+.simple-search-form {
+  display: flex;
+  margin-top: -20px;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.simple-search-input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: 1px solid #5d554e;
+  border-radius: 5px 0 0 5px;
+  background-color: transparent;
+  width: 200px; /* Adjust width as needed */
+}
+
+.simple-search-btn {
+  color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+
+.simple-search-btn:hover {
+  background-color: #5d554e;
+}
+
+.simple-search-btn:focus {
+  outline: none;
+}
+
+/* Style for the search icon inside the button */
+.simple-search-btn svg {
+  vertical-align: middle;
+  font-size: 1rem;
+}
