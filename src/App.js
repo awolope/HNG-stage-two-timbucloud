@@ -1,12 +1,11 @@
-import { Router, Routes } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Timberclouds from "./pages/Timber";
-
+import TimbuClouds from "./pages/TimbuCloud";
 function App() {
   return (
     <Router>
       <Routes>
-        <Routes path="/" element={<Timberclouds />} />
+        <Route path="/" element={<TimbuClouds />} />
       </Routes>
     </Router>
   );
