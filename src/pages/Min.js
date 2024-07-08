@@ -2,6 +2,7 @@ import React from "react";
 import "./main.css";
 import "../woman.png";
 import "../man.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 export default function Main(params) {
   return (
     <div className="maindiv">

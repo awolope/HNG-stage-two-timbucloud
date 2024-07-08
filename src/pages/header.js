@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 
 import { FaInfinity } from "react-icons/fa";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import "./Head.css";
