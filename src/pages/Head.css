@@ -139,8 +139,4 @@
   line-height: 38.19px;
 }
 @media (max-width: 900px) {
-  body {
-    overflow: hidden;
-    width: fit-content;
-  }
 }

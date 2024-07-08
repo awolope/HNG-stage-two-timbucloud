@@ -5,7 +5,7 @@ import Main from "./Min";
 export default function TimbuCloud() {
   return (
     <div>
-      <header>
+      <header className="body">
         <Head />
         <Main />
       </header>
